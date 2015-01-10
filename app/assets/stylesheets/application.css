@@ -1,0 +1,369 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@font-face{
+  font-family:visitor;
+  src: url("visitor1.ttf");
+}
+
+@font-face{
+  font-family: blade;
+  src: url("BLADRMF_.TTF");
+}
+
+html {
+  background-color: #1E171E;
+}
+
+.name {
+  position:absolute;
+  font-family: blade;
+  color: #EE77AD;
+  left:350px;
+  top:90px;
+}
+
+.parent{
+  position:absolute;
+  top:170px;
+  left:480px;
+  border:4px solid #EE77AD;
+  border-radius:5%;
+}
+
+.child{
+  position:absolute;
+  top:535px;
+  left:395px;
+  background-color: #1E171E;
+  width:500px;
+  height:80px;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.p1 {
+  position:absolute;
+  color:#6E7C2C;
+  left:640px;
+  top:165px;
+  font-family:visitor;
+}
+
+
+
+
+#p2 {
+  position:absolute;
+  color:#6E7C2C;
+  left:665px;
+  top:215px;
+  font-family:visitor;
+}
+
+#p3 {
+  position:absolute;
+  color:#6E7C2C;
+  left:640px;
+  top:263px;
+  font-family:visitor;
+}
+
+#link {
+  position:absolute;
+  color:#EE77AD;
+  left:565px;
+  top:370px;
+  font-family: blade;
+}
+
+#tech{
+  position:absolute;
+  color:#EE77AD;
+  font-family: blade;
+  margin: 0;
+  margin-left: 70px;
+  top:10px;
+
+}
+
+#github:hover{
+  color:#EE77AD; 
+}
+
+.thumb {
+  height:300px;
+}
+
+#github {
+  
+  color:blue;
+
+}
+
+#contact {
+  position:absolute;
+  color:#EE77AD;
+  left:595px;
+  top:460px;
+  font-family: blade;
+}
+
+.portfolio {
+  height:500px;
+}
+
+#things {
+  position:absolute;
+  list-style: none;
+  color: #6E7C2C;
+  top:35px;
+  left:45px;
+  width:600px;
+  font-family:visitor;
+}
+
+#things li {
+  display: inline;
+}
+
+.flip-container {
+  /*margin: 0 auto;*/
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+}
+
+.flip-container:hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  position: absolute;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 1;
+}
+
+.flip-container, .front, .back {
+  width: 14.375em;
+  height: 14.375em;
+}
+
+.back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+}
+
+.main_header {
+  
+	margin: 0 auto;
+  position:relative;
+}
+
+
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #EE77AD;
+z-index:1;
+height: 35px;
+text-align: center;
+font-family: 'visitor';
+letter-spacing: 3px;
+padding-top: 15px;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+}
+
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: #EE77AD;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: grey;
+} 
+
+.about_me {
+height: 100%;
+color: #ffffff;
+width: 100%;
+position: relative;
+background-color: #FF6666;
+padding-top: 40px;
+padding-bottom: 80px;
+}
+
+.code {
+height: 100%;
+color: #ffffff;
+width: 100%;
+position: relative;
+background-color: #FF6666;
+padding-top: 40px;
+padding-bottom: 80px;
+}
+
+.about_heading {
+font-size: 40px;
+font-weight: 400;
+text-align: center;
+font-family: 'visitor';
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #EE77AD;
+}
+
+
+.headings {
+font-size: 40px;
+font-weight: 400;
+text-align: center;
+font-family: 'visitor';
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #6E7C2C;
+}
+
+p {
+font-size: 15px;
+font-weight: 300;
+font-family: 'Lato', sans-serif;
+letter-spacing: 3px;
+color: #f6f8f9;
+text-align: center;
+}
+
+p.light {
+font-size: 15px;
+font-weight: 300;
+font-family: 'Lato', sans-serif;
+letter-spacing: 3px;
+color: #333;
+text-align: center;
+}
+
+.contact{ 
+height: 100%;
+color: #EE77AD;
+width: 100%;
+position: relative;
+background-color: #6E7C2C;
+padding-top: 40px;
+padding-bottom: 80px;
+}
+
+.fa-linkedin-square {
+	color:white;
+}
+
+.fa-github {
+	color:white;
+}
+
+.photo-grid {
+  margin: 1em auto;
+  margin-left: 5px;
+  max-width: 1106px;
+  text-align: center;
+}
+ 
+.photo-grid li {
+  border: 0px solid white;
+  display: inline-block;
+  margin: 1em;
+  width: 289px;
+}
+ 
+.photo-grid img {
+  display: block;
+  height: auto;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  max-width: 100%;
+}
+ 
+.photo-grid figure {
+  height: 163px;
+  overflow: hidden;
+  position: relative;
+  width: 289px;
+}
+ 
+.photo-grid figcaption {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: table;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+ 
+.photo-grid figcaption p {
+  display: table-cell;
+  font-size: 1.5em;
+  position: relative;
+  top: -40px;
+  width: 289px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption {
+  opacity: 1;
+}
+
+.photo-grid li:hover figcaption p {
+  -moz-transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+
+.photo-grid li:hover img {
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  transform: scale(1.4);
+}
+

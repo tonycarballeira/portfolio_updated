@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: 'blade';
-  src: asset-path("BLADRMF_.TTF");
+  src: asset-url("BLADRMF_.TTF");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'visitor';
-  src: asset-path("visitor1.ttf");
+  src: asset-url("visitor1.ttf");
   font-weight: normal;
   font-style: normal;
 }

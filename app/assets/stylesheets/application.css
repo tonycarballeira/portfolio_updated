@@ -29,7 +29,7 @@ html {
 
 .name {
   position:absolute;
-  font-family: blade;
+  font-family: 'blade';
   color: #EE77AD;
   left:350px;
   top:90px;
@@ -59,7 +59,7 @@ html {
   color:#6E7C2C;
   left:640px;
   top:165px;
-  font-family:visitor;
+  font-family:'visitor';
 }
 
 
@@ -70,7 +70,7 @@ html {
   color:#6E7C2C;
   left:665px;
   top:215px;
-  font-family:visitor;
+  font-family:'visitor';
 }
 
 #p3 {
@@ -78,7 +78,7 @@ html {
   color:#6E7C2C;
   left:640px;
   top:263px;
-  font-family:visitor;
+  font-family:'visitor';
 }
 
 #link {
@@ -86,13 +86,13 @@ html {
   color:#EE77AD;
   left:565px;
   top:370px;
-  font-family: blade;
+  font-family: 'blade';
 }
 
 #tech{
   position:absolute;
   color:#EE77AD;
-  font-family: blade;
+  font-family: 'blade';
   margin: 0;
   margin-left: 70px;
   top:10px;
@@ -118,7 +118,7 @@ html {
   color:#EE77AD;
   left:595px;
   top:460px;
-  font-family: blade;
+  font-family: 'blade';
 }
 
 .portfolio {
@@ -132,7 +132,7 @@ html {
   top:35px;
   left:45px;
   width:600px;
-  font-family:visitor;
+  font-family:'visitor';
 }
 
 #things li {

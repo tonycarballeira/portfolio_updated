@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-@font-face{
+/*@font-face{
   font-family:visitor;
   src: url("visitor1.ttf");
 }
@@ -22,7 +22,7 @@
   font-family: blade;
   src: url("BLADRMF_.TTF");
 }
-
+*/
 html {
   background-color: #1E171E;
 }

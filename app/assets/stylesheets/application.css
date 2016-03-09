@@ -115,14 +115,6 @@ html {
 
 }
 
-#contact {
-  position:absolute;
-  color:#EE77AD;
-  left:595px;
-  top:460px;
-  font-family: 'blade';
-}
-
 .portfolio {
   height:500px;
 }
@@ -280,15 +272,7 @@ color: #333;
 text-align: center;
 }
 
-.contact{ 
-height: 100%;
-color: #EE77AD;
-width: 100%;
-position: relative;
-background-color: #6E7C2C;
-padding-top: 40px;
-padding-bottom: 80px;
-}
+
 
 .fa-linkedin-square {
 	color:white;

@@ -284,7 +284,7 @@ p.ref {
 	padding: 10px 40px;
 	border: 10px double #f9f1e9;
 	text-transform: uppercase;
-	/*font-family: Londrina Outline, sans-serif;*/
+	font-family: Londrina Outline, sans-serif;
 }
 
 .demo-4 .main-title {
@@ -309,4 +309,17 @@ p.ref {
 	.demo-2 .main-title {
 		font-size: 4em;
 	}
+}
+
+.content p {
+	text-align: center;
+	color: #7caccd;
+	font-size: 1.1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	line-height: 26px;
+	z-index: 0;
+	
+	top: 30%;
+	left: 50%;
 }

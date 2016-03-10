@@ -311,7 +311,7 @@ p.ref {
 	color: #e6e0cb;
 	margin-bottom: 30px;
 	font-size: 50px !important;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'Raleway' !important; 
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
@@ -335,7 +335,7 @@ p.ref {
 	padding-top: 0.5em;
 	z-index: 0;
 	position:absolute;
-	top: 330px;
+	top: 470px;
 	left: 50%;
 	max-width: 500px;
 	width: 100%;
@@ -343,3 +343,4 @@ p.ref {
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
+

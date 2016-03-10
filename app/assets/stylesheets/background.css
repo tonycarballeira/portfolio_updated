@@ -330,7 +330,6 @@ p.ref {
 
 .paragraphs  {
 	text-align: center;
-	color: #7caccd;
 	font-size: 1.1em;
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
@@ -341,7 +340,6 @@ p.ref {
 	max-width: 500px;
 	width: 100%;
 	font-family: 'Raleway' !important; 
-	font-weight: normal !important;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }

@@ -257,7 +257,7 @@ color: #6E7C2C;
 p {
 font-size: 15px;
 font-weight: 300;
-font-family: 'Lato', sans-serif;
+/*font-family: '', sans-serif;*/
 letter-spacing: 3px;
 color: #f6f8f9;
 text-align: center;
@@ -266,7 +266,7 @@ text-align: center;
 p.light {
 font-size: 15px;
 font-weight: 300;
-font-family: 'Lato', sans-serif;
+/*font-family: '', sans-serif;*/
 letter-spacing: 3px;
 color: #333;
 text-align: center;

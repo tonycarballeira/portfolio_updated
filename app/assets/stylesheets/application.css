@@ -377,7 +377,8 @@ text-align: center;
 
 .social_icons li {
   display: inline;
-  margin-left: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .ico {
@@ -390,6 +391,11 @@ text-align: center;
 
 .icon_links {
   text-decoration: none !important;
+}
+
+.nav a {
+  font-weight: 500 !important;
+  font-size: 15px !important;
 }
 
 

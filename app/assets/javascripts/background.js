@@ -132,7 +132,7 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
             window.addEventListener('mousemove', mouseMove);
         }
         // window.addEventListener('scroll', scrollCheck);
-        window.addEventListener('resize', resize);
+        // window.addEventListener('resize', resize);
     }
 
     function mouseMove(e) {

@@ -404,9 +404,17 @@ text-align: center;
   background-color: #262c50;
 }
 
-.skill_div {
+.skills_image {
+  position: relative;
 
+  background: 
+    linear-gradient(
+      rgba(26, 33, 64, 0.95), 
+      rgba(26, 33, 64, 0.95)
+    ), 
+    url("office.jpg");
 }
+
 
 .skill_head {
   line-height:26px;

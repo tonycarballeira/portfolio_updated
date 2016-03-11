@@ -67,7 +67,7 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = 1000;
         target = {x: width/2, y: height/2};
 
         largeHeader = document.getElementById('large-header');
@@ -149,10 +149,10 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
         target.y = posy;
     }
 
-    function scrollCheck() {
-        if(document.body.scrollTop > height) animateHeader = false;
-        else animateHeader = true;
-    }
+    // function scrollCheck() {
+    //     if(document.body.scrollTop > height) animateHeader = false;
+    //     else animateHeader = true;
+    // }
 
     function resize() {
         width = window.innerWidth;

@@ -333,7 +333,6 @@ p.ref {
 	font-size: 1.1em;
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
-	z-index: 0;
 	position:absolute;
 	top: 470px;
 	left: 50%;
@@ -343,4 +342,6 @@ p.ref {
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
 }
+
+
 

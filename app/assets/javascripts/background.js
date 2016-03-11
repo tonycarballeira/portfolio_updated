@@ -131,7 +131,7 @@ var _gsScope="undefined"!=typeof module&&module.exports&&"undefined"!=typeof glo
         if(!('ontouchstart' in window)) {
             window.addEventListener('mousemove', mouseMove);
         }
-        window.addEventListener('scroll', scrollCheck);
+        // window.addEventListener('scroll', scrollCheck);
         window.addEventListener('resize', resize);
     }
 

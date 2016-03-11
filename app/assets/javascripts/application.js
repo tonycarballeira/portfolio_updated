@@ -58,45 +58,45 @@
 
 
 var skills = [
-  {"header" : "INTERESTS",
+  {"header" : "",
     "captions" : [
-      "Cooking",
-      "Web",
-      "Mobile",
-      "Design",
-      "AI"
+      "HTML 5",
+      "CSS 3",
+      "Jquery",
+      "Angular JS",
+      "Sass"
     ],
     "values" : [
-      0.70,
       0.90,
-      0.70,
+      0.90,
+      0.90,
       0.80,
-      0.70
+      0.80
     ]
   },
-  {"header" : "LANGUAGES",
+  {"header" : "",
     "captions" : [
-      "nodeJS",
-      "PHP",
-      "JS",
-      "Ruby",
-      "Java"
+      "Python / Django",
+      "Spanish",
+      "Javascript",
+      "Ruby / Rails",
+      "SQL"
     ],
     "values" : [
       0.80,
       0.85,
       0.90,
-      0.70,
+      0.90,
       0.90
     ]
   },
-  {"header" : "MISC",
+  {"header" : "",
     "captions" : [
-      "Eclipse",
+      "Bootstrap",
+      "Google",
       "Git",
-      "Rails",
-      "OpenGL",
-      "Linux"
+      "React Native",
+      "PS"
     ],
     "values" : [
       0.85,

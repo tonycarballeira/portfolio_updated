@@ -412,7 +412,7 @@ text-align: center;
       rgba(26, 33, 64, 0.95), 
       rgba(26, 33, 64, 0.95)
     ), 
-    url("office.jpg");
+    image-url("office.jpg");
     background-size: 100% auto;
 }
 

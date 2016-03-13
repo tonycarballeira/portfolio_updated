@@ -320,7 +320,6 @@ p.ref {
 }
 
 .words {
-	position: absolute;
 	top: 20% !important;
 	width:100%;
 	max-width:750px;

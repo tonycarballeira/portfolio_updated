@@ -459,20 +459,8 @@ text-align: center;
   background-color: #f6f4e7;
 }*/
 
-.paragraphs  {
-  /*text-align: center;*/
-  /*font-size: 1.1em;*/
-/*  padding-bottom: 0.5em;
-  padding-top: 0.5em;*/
-  position:absolute;
-  /*top: 470px;*/
-  left: 50%;
-  /*max-width: 800px;*/
-  width: 100% !important;
-  font-family: 'Raleway' !important; 
-  -webkit-transform: translate3d(-50%,-50%,0);
-  transform: translate3d(-50%,-50%,0);
-}
+
+
 
 
 

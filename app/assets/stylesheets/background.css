@@ -319,32 +319,16 @@ p.ref {
 	transform: translate3d(-50%,-50%,0);
 }
 
-.words {
+/*.words {
 	top: 20% !important;
 	width:100%;
 	max-width:750px;
 	height:900px;
 	left: auto;
-	right: auto;
-	
+	right: auto;	
 }
+*/
 
-
-
-.paragraphs  {
-	text-align: center;
-	font-size: 1.1em;
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
-	position:absolute;
-	top: 470px;
-	left: 50%;
-	max-width: 500px;
-	width: 100%;
-	font-family: 'Raleway' !important; 
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
-}
 
 
 

@@ -216,7 +216,7 @@ p.ref {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	z-index: 1;
+	/*z-index: 1;*/
 }
 
 .demo-1 .large-header {
@@ -305,7 +305,7 @@ p.ref {
 }
 
 .main-title {
-	position: relative;
+	/*position: relative;*/
 	margin: 0;
 	padding: 0;
 	color: #f9f1e9;
@@ -332,18 +332,19 @@ p.ref {
 
 
 .paragraphs  {
-	text-align: center;
+	/*text-align: center;
 	font-size: 1.1em;
 	padding-bottom: 0.5em;
-	padding-top: 0.5em;
-	position:absolute;
-	top: 470px;
+	padding-top: 0.5em;*/
+	/*position:absolute;*/
+	/*top: 470px;
 	left: 50%;
 	max-width: 500px;
-	width: 100%;
+	width: 100%;*/
 	font-family: 'Raleway' !important; 
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
+	margin-top:140px;
+	/*-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);*/
 }
 
 

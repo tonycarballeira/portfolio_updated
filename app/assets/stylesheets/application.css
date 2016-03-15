@@ -455,14 +455,44 @@ text-align: center;
   display:inline-block;
 }
 
-/*.modal-content {
-  background-color: #f6f4e7;
-}*/
+#canvas-wrap { 
+  position:relative; 
+  width:100%; 
+  height:600px 
+}
+
+#canvas-wrap canvas { 
+  position:absolute; 
+  top:0; 
+  left:0; 
+  z-index:0 
+}
+
+@media (min-width: 992px) {
+
+  .tester {
+      margin-top: 90px;
+  }
+
+}
 
 
+.top_head {
+  line-height:26px;
+  color: #e6e0cb;
+  font-size:60px;
+  margin-bottom:60px;
+  font-weight:100;
+  letter-spacing:8px;
+}
 
+@media (min-width: 992px) {
 
+  .top_head {
+      font-size:80px !important;
+  }
 
+}
 
 
 

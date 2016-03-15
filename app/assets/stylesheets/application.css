@@ -494,6 +494,16 @@ text-align: center;
 
 }
 
+#large-header {
+    height:1000px !important;
+  }
+
+@media (max-width: 650px) {
+  #large-header {
+    height:900px !important;
+  }
+}
+
 
 
 

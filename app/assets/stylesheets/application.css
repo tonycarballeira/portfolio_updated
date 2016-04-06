@@ -476,15 +476,6 @@ text-align: center;
   z-index:0 
 }
 
-@media (min-width: 992px) {
-
-  .tester {
-      margin-top: 90px;
-  }
-
-}
-
-
 .top_head {
   line-height:26px;
   color: #e6e0cb;
@@ -492,6 +483,10 @@ text-align: center;
   margin-bottom:60px;
   font-weight:100;
   letter-spacing:8px;
+}
+
+#large-header {
+    height:1000px !important;
 }
 
 @media (min-width: 992px) {
@@ -502,9 +497,13 @@ text-align: center;
 
 }
 
-#large-header {
-    height:1000px !important;
+@media (min-width: 992px) {
+
+  .tester {
+      margin-top: 90px;
   }
+
+}
 
 @media (max-width: 650px) {
   #large-header {
